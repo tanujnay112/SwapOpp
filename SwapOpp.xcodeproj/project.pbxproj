@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BD43B78B1ED7BF0A003EFE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B78A1ED7BF0A003EFE05 /* AppDelegate.swift */; };
-		BD43B78D1ED7BF0A003EFE05 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B78C1ED7BF0A003EFE05 /* RootViewController.swift */; };
-		BD43B78F1ED7BF0A003EFE05 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B78E1ED7BF0A003EFE05 /* DataViewController.swift */; };
-		BD43B7911ED7BF0A003EFE05 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B7901ED7BF0A003EFE05 /* ModelController.swift */; };
 		BD43B7941ED7BF0A003EFE05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD43B7921ED7BF0A003EFE05 /* Main.storyboard */; };
 		BD43B7961ED7BF0A003EFE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD43B7951ED7BF0A003EFE05 /* Assets.xcassets */; };
 		BD43B7991ED7BF0A003EFE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD43B7971ED7BF0A003EFE05 /* LaunchScreen.storyboard */; };
 		BD43B7A41ED7BF0A003EFE05 /* SwapOppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B7A31ED7BF0A003EFE05 /* SwapOppTests.swift */; };
 		BD43B7AF1ED7BF0A003EFE05 /* SwapOppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B7AE1ED7BF0A003EFE05 /* SwapOppUITests.swift */; };
+		E88FFE091EDD24A100A19D40 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FFE081EDD24A100A19D40 /* PageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +36,6 @@
 /* Begin PBXFileReference section */
 		BD43B7871ED7BF0A003EFE05 /* SwapOpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwapOpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD43B78A1ED7BF0A003EFE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD43B78C1ED7BF0A003EFE05 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		BD43B78E1ED7BF0A003EFE05 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		BD43B7901ED7BF0A003EFE05 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		BD43B7931ED7BF0A003EFE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD43B7951ED7BF0A003EFE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD43B7981ED7BF0A003EFE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +46,7 @@
 		BD43B7AA1ED7BF0A003EFE05 /* SwapOppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapOppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD43B7AE1ED7BF0A003EFE05 /* SwapOppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapOppUITests.swift; sourceTree = "<group>"; };
 		BD43B7B01ED7BF0A003EFE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88FFE081EDD24A100A19D40 /* PageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				BD43B78A1ED7BF0A003EFE05 /* AppDelegate.swift */,
-				BD43B78C1ED7BF0A003EFE05 /* RootViewController.swift */,
-				BD43B78E1ED7BF0A003EFE05 /* DataViewController.swift */,
-				BD43B7901ED7BF0A003EFE05 /* ModelController.swift */,
 				BD43B7921ED7BF0A003EFE05 /* Main.storyboard */,
 				BD43B7951ED7BF0A003EFE05 /* Assets.xcassets */,
 				BD43B7971ED7BF0A003EFE05 /* LaunchScreen.storyboard */,
 				BD43B79A1ED7BF0A003EFE05 /* Info.plist */,
+				E88FFE081EDD24A100A19D40 /* PageVC.swift */,
 			);
 			path = SwapOpp;
 			sourceTree = "<group>";
@@ -194,7 +188,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = C105;
 				TargetAttributes = {
 					BD43B7861ED7BF0A003EFE05 = {
@@ -266,10 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD43B78D1ED7BF0A003EFE05 /* RootViewController.swift in Sources */,
-				BD43B7911ED7BF0A003EFE05 /* ModelController.swift in Sources */,
-				BD43B78F1ED7BF0A003EFE05 /* DataViewController.swift in Sources */,
 				BD43B78B1ED7BF0A003EFE05 /* AppDelegate.swift in Sources */,
+				E88FFE091EDD24A100A19D40 /* PageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +334,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -392,6 +385,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
